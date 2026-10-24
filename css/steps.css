@@ -1,0 +1,36 @@
+.steps {
+  gap: 1.25rem;
+  list-style: none;
+}
+
+.step {
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 1.25rem;
+  background-color: var(--color-extra);
+  border-radius: 0.5rem;
+  text-align: center;
+  transition: transform 0.25s;
+}
+
+.step:hover {
+  transform: translateY(-0.25rem);
+}
+
+.step_num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+  color: var(--color-menu);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.step p {
+  margin-bottom: 0;
+}

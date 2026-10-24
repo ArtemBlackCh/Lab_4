@@ -1,0 +1,21 @@
+.header {
+  padding: 15px 20px 0.75rem;
+  text-align: center;
+  background-color: var(--color-extra);
+}
+
+.header h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.header img {
+  width: 100%;
+  max-width: 15.375rem;
+  height: auto;
+}
+
+.header p {
+  margin-top: 8px;
+  font-size: 22px;
+}

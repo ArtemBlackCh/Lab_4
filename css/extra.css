@@ -1,0 +1,6 @@
+.extra {
+  padding: 60px 20px 2.75rem;
+  text-align: center;
+  background-color: var(--color-extra);
+  font-size: 24px;
+}

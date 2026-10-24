@@ -1,0 +1,43 @@
+.reviews {
+  gap: 1.5rem;
+}
+
+.review {
+  flex: 1 1 13rem;
+  min-width: 0;
+  padding: 1.25rem;
+  background-color: var(--color-extra);
+  border-radius: 0.5rem;
+}
+
+.review_head {
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.review_head h3,
+.review_head p {
+  margin-bottom: 0;
+}
+
+.avatar {
+  flex: none;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.rating {
+  color: var(--color-star);
+  letter-spacing: 0.1rem;
+}
+
+blockquote {
+  padding-left: 1rem;
+  border-left: 0.2rem solid var(--color-accent);
+  font-style: italic;
+}
+
+blockquote p {
+  margin-bottom: 0;
+}

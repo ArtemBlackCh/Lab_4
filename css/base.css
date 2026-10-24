@@ -1,0 +1,14 @@
+:root {
+  --max-width: 1440px;
+  --menu-basis: 20.8333%;
+  --color-menu: #0e0c13;
+  --color-bg: #1a1722;
+  --color-extra: #262033;
+  --color-text: #e6e3ec;
+  --color-accent: #9b6bff;
+  --color-line: #4a3a73;
+  --color-star: #ffc107;
+
+  --font-family-text: Arial, sans-serif;
+  --font-size-p: 18px;
+}

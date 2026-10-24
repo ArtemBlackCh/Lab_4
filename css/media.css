@@ -1,0 +1,121 @@
+@media (max-width: 1023px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .menu {
+    flex: 0 0 auto;
+    min-width: 0;
+    padding: 20px;
+  }
+
+  .menu_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu li {
+    margin-bottom: 0;
+  }
+
+  .menu a {
+    font-size: 18px;
+  }
+
+  .section {
+    padding: 2rem;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    font-size: 16px;
+  }
+
+  .menu {
+    padding: 10px 20px;
+  }
+
+  .menu_btn {
+    display: flex;
+  }
+
+  .menu_list {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .menu_toggle:checked ~ .menu_list {
+    display: flex;
+  }
+
+  .header p {
+    font-size: 18px;
+  }
+
+  .section {
+    padding: 1.25rem;
+  }
+
+  h2 {
+    margin-bottom: 14px;
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .concert {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .poster {
+    align-self: center;
+  }
+
+  .timeline_item,
+  .timeline_item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .timeline_empty {
+    display: none;
+  }
+
+  .timeline_mark {
+    flex: 0 0 2rem;
+  }
+
+  .timeline_card {
+    padding: 1rem;
+  }
+
+  .steps {
+    flex-direction: column;
+  }
+
+  .faq_item summary {
+    font-size: 17px;
+  }
+
+  .extra {
+    padding: 2rem 20px 1.5rem;
+    font-size: 20px;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+}

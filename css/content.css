@@ -1,0 +1,25 @@
+.section {
+  padding: 2.5rem;
+}
+
+.concert {
+  gap: 1.875rem;
+}
+
+.poster {
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: 18.75rem;
+  height: auto;
+}
+
+.concert_info {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.map {
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+}
